@@ -112,7 +112,7 @@ li {
 }
 
 
-/* layout */
+/* layout, spacing, & shims */
 .branding {
   padding-top: 40px;
 }
@@ -153,6 +153,41 @@ li {
   padding-left: 15px;
 }
 
+.marg-shim {
+  margin: -15px;
+}
+
+.marg-r-shim {
+  margin-right: -15px;
+}
+
+.marg-l-shim {
+  margin-left: -15px;
+}
+
+.marg-t-shim {
+  margin-top: -15px;
+}
+
+.marg-b-shim {
+  margin-bottom: -15px;
+}
+
+.padd-t-shim {
+  padding-top: -15px;
+}
+
+.padd-b-shim {
+  padding-bottom: -15px;
+}
+
+.padd-r-shim {
+  padding-right: -15px;
+}
+
+.padd-l-shim {
+  padding-left: -15px;
+}
 
 /* ---------
 components
