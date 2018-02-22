@@ -1,0 +1,214 @@
+body, html {
+    height: 100%;
+    /* box-sizing: border-box; */
+}
+
+.header {
+  background-color: rgba(27,20,100,0.8);
+}
+
+.about-wrapper,
+.road-wrapper,
+.footer {
+  background-color: #1B1438;
+}
+
+.adv-wrapper  {
+    background-color: rgba(27,20,100,0.9);
+  /* background-color: rgba(27,20,0,0.5); */
+}
+
+/* images */
+.hero {
+  background-image: url('http://satoshi.team/images/fon-u198-fr.png?crc=3926966397');
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.main-content {
+  background-image: url('http://satoshi.team/images/fon-u316-fr.png?crc=4228309870');
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.mobile-img {
+  position: relative;
+}
+
+.mobile-img img {
+  display: block;
+  margin: 0 auto;
+}
+
+.social {
+  color: #fff;
+}
+
+.social span {
+  /* circles around social icons */
+    border: 2px solid #fff;
+    border-radius: 50%;
+    padding: 5px;
+    height: 32px;
+    width: 32px;
+}
+
+
+
+/* Typography */
+a:link,
+h1,
+h2,
+h3,
+p {
+  color: #fff;
+  text-align: center;
+}
+
+h1,
+h2 {
+  font-family: 'Varela Round', sans-serif;
+}
+
+h3,
+p,
+a,
+li {
+  font-family: 'Ubuntu', sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 90px;
+}
+
+h2 {
+   font-size: 36px;
+}
+
+h3 {
+   font-size: 30px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 22px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+li {
+  color: #fff;
+}
+
+
+/* layout */
+.branding {
+  padding-top: 40px;
+}
+
+.marg {
+  margin: 15px;
+}
+
+.marg-r {
+  margin-right: 15px;
+}
+
+.marg-l {
+  margin-left: 15px;
+}
+
+.marg-t {
+  margin-top: 15px;
+}
+
+.marg-b {
+  margin-bottom: 15px;
+}
+
+.padd-t {
+  padding-top: 15px;
+}
+
+.padd-b {
+  padding-bottom: 15px;
+}
+
+.padd-r {
+  padding-right: 15px;
+}
+
+.padd-l {
+  padding-left: 15px;
+}
+
+
+/* ---------
+components
+----------- */
+.btn {
+  background-color: #22B573;
+  border-radius: 0;
+  margin: 15px;
+}
+
+.table-top {
+  background-color: #0071BC;
+  border-radius: 10px 10px 0px 0px;
+  position: relative;
+}
+
+.table-top div {
+  text-transform: uppercase;
+}
+
+.table-bottom {
+  background-color: #114587;
+  border-radius: 0px 0px 10px 10px;
+  position: relative;
+}
+
+.contract {
+  font-size: 14px;
+}
+
+.circle {
+  border: 2px solid #22B573;
+  border-radius: 50%;
+  padding: 10px 18px;
+  font-size: 44px;
+  color: #fff;
+  font-family: Arial;
+  line-height: 53px;
+  text-align: center;
+}
+
+.circle+p {
+  text-align: left;
+}
+
+.time-line {
+  background-color: #22B573;
+  border-radius: 10px;
+  width: 1040px;
+  position: relative;
+  margin-right: -10000px;
+  height: 10px;
+}
+
+/* @media (max-width: 1080px) {
+  .table-top {
+    transform: matrix(0,-1,1,0,65,225);
+  }
+} */
